@@ -53,6 +53,7 @@ Baseline: SRCNN，SRResNet，TfaSR
 | RMSE_Slope_Glacier | 0 | 0 | 0 | 0 | 0 | 0 |
 | RMSE_Slope_Plain | 0 | 0 | 0 | 0 | 0 | 0 |
 2.消融实验：地形知识对模型性能的影响
+
 |         | No_SRCNN  | No_SRResNet | No_TfaSR  |  MF_SRCNN  | MF_SRResNet | MF_TfaSR |
 |  ----   | ----  | ----  | ----  | ----  | ----  | ----  |
 | RMSE_Ele_Loess | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -69,4 +70,5 @@ Baseline: SRCNN，SRResNet，TfaSR
 | RMSE_Slope_Desert | 0 | 0 | 0 | 0 | 0 | 0 |
 | RMSE_Slope_Glacier | 0 | 0 | 0 | 0 | 0 | 0 |
 | RMSE_Slope_Plain | 0 | 0 | 0 | 0 | 0 | 0 |
+
 3.地形复杂度与迁移性可能的联系。
