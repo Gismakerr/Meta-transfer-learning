@@ -32,6 +32,7 @@ Baseline: SRCNN，SRResNet，TfaSR
 | RMSE_Slope_Desert | 0 | 0 | 0 | 0 | 0 | 0 |
 | RMSE_Slope_Glacier | 0 | 0 | 0 | 0 | 0 | 0 |
 | RMSE_Slope_Plain | 0 | 0 | 0 | 0 | 0 | 0 |
+
 2、使用预训练好的模型直接应用到七种地貌上；
 3、分别测试七种地貌，每次选六种地貌进行元迁移学习，在第七种地貌上进行测试。
 #  讨论
@@ -52,6 +53,7 @@ Baseline: SRCNN，SRResNet，TfaSR
 | RMSE_Slope_Desert | 0 | 0 | 0 | 0 | 0 | 0 |
 | RMSE_Slope_Glacier | 0 | 0 | 0 | 0 | 0 | 0 |
 | RMSE_Slope_Plain | 0 | 0 | 0 | 0 | 0 | 0 |
+
 2.消融实验：地形知识对模型性能的影响
 
 |         | No_SRCNN  | No_SRResNet | No_TfaSR  |  MF_SRCNN  | MF_SRResNet | MF_TfaSR |
